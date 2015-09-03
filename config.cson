@@ -1,0 +1,34 @@
+"*":
+  "exception-reporting":
+    userId: "4b5d113d-2af2-a4ba-afbc-181961170883"
+  welcome:
+    showOnStartup: false
+  core:
+    disabledPackages: [
+      "keybinding-resolver"
+      "vim-mode"
+    ]
+  editor:
+    invisibles: {}
+    fontSize: 21
+    softWrap: true
+    fontFamily: "monaco"
+    showIndentGuide: true
+    tabLength: 4
+  linter: {}
+  "atom-typescript": {}
+  autosave:
+    enabled: true
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  tabs:
+    usePreviewTabs: true
+  pigments: {}
+  rspec: {}
+  "autocomplete-plus":
+    backspaceTriggersAutocomplete: true
+    autoActivationDelay: 250
+  "vim-mode": {}
+".source.ts":
+  editor:
+    showInvisibles: false
